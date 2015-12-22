@@ -4,16 +4,38 @@
   "private": true,
   "scripts": {
     "postinstall": "tsd reinstall --overwrite --save",
-    "start": "webpack-dev-server"
+    "start": "node devServer.js"
   },
   "author": "Marko Gresak <marko@gresak.io> (http://gresak.io/)",
   "license": "MIT",
   "devDependencies": {
-    "react": "^0.13.3",
+    "css-loader": "^0.21.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "node-sass": "^3.4.0",
+    "sass-loader": "^3.1.0",
+    "style-loader": "^0.13.0",
     "ts-loader": "^0.5.4",
     "tsd": "^0.6.4",
     "typescript": "^1.6.0-dev.20150909",
+    "url-loader": "^0.5.6",
     "webpack": "^1.12.1",
     "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.21.0",
+    "react-redux": "^4.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redux": "^3.0.4",
+    "sass-loader": "^3.1.0",
+    "style-loader": "^0.13.0",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
   }
 }

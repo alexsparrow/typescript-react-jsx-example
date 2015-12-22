@@ -1,4 +1,9 @@
 import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import * as ReactRedux from 'react-redux';
+import App from './components/App';
 
-// Render a simple React h1 component into the body.
-React.render(<h1>Hello, TypeScript!</h1>, document.getElementsByTagName('body')[0]);
+declare function require(string): string;
+require("./main.less");
+
+ReactDOM.render(<App/> , document.getElementsByTagName('body')[0]);

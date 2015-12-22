@@ -17,8 +17,16 @@
         "!./node_modules/**/*"
     ],
     "files": [
-        "./typings/react/react.d.ts",
-        "./typings/tsd.d.ts",
-        "./index.tsx"
-    ]
+        "typings/react-bootstrap/react-bootstrap.d.ts",
+        "typings/react-redux/react-redux.d.ts",
+        "typings/react/react-dom.d.ts",
+        "typings/react/react.d.ts",
+        "typings/redux/redux.d.ts",
+        "typings/tsd.d.ts",
+        "components/App.tsx",
+        "components/hello.tsx",
+        "components/Nav.tsx",
+        "index.tsx"
+    ],
+    "exclude": []
 }
